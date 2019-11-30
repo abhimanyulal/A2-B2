@@ -7,10 +7,8 @@
 #define m7 10
 #define m8 11
 int trigPin = 7;
-int echoPin = 6
+int echoPin = 6;
 
-
-              ;
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
@@ -103,7 +101,7 @@ void loop() {
     backward();
     delay(1000);
     right();
-    delay(1500);
+    delay(500);
     forward();
   }
 
